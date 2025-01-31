@@ -19,4 +19,5 @@ swww is a wallpaper utility\
 foot is a terminal emulator
 grim and slurp are screenshot utilities\
 brightnessctl is used to control the brightness\
-fish is a shell
+fish is a shell\
+You will also need the hyprcursor and xcursor theme of Bibata-Modern-Classic.
