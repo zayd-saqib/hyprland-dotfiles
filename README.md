@@ -14,14 +14,22 @@ nvim
 fish
 starship
 ```
-gjs-hyprpanel, simply known as hyprpanel, must be built form source.\
-the instructions for building it are at their [website](https://hyprpanel.com/getting_started/installation.html)\
-swww is a wallpaper utility.\
-foot is a terminal emulator.\
-grim and slurp are screenshot utilities.\
-fish is a shell.\
-nvim, or neovim, is a vim based code editor.\
-starship is used to customize your terminal prompt.\
+gjs-hyprpanel, simply known as hyprpanel, must be built form source.
+
+The instructions for building it are at their [website](https://hyprpanel.com/getting_started/installation.html)
+
+Swww is a wallpaper utility.
+
+Foot is a terminal emulator.
+
+Grim and slurp are screenshot utilities.
+
+Fish is a shell.
+
+Nvim, or neovim, is a vim based code editor.
+
+Starship is used to customize your terminal prompt.
+
 You will also need the hyprcursor and xcursor theme of Bibata-Modern-Classic.
 
 
@@ -72,9 +80,12 @@ Next, in the terminal, type this command:
 ```
 hyprpanel toggleWindow settings-dialog
 ```
-This should open the hyprpanel settings menu.\
-Next, in the "General" tab of the "Configuration" group, there is an option to import a config.\
-Click the "import" button and select the "config.json" file in the "hyprpanel" folder of my repo.\
+This should open the hyprpanel settings menu.
+
+Next, in the "General" tab of the "Configuration" group, there is an option to import a config.
+
+Click the "import" button and select the "config.json" file in the "hyprpanel" folder of my repo.
+
 The configuration should be imported.
 
 
@@ -108,3 +119,17 @@ Restart Neovim, and Neovim should be ready now.
 ### Hyprland and Hyprpanel
 
 <img src="assets/hypr.png">
+
+### Neovim
+
+<img src="assets/nvim.png">
+
+### Rofi
+
+<img src="assets/rofi.png">
+
+### Foot, Starship, and Fish
+
+<img src="assets/foot.png">
+
+-# Thats it! That's my Hyprland dotfiles repo.
