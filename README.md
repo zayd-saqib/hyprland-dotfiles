@@ -132,4 +132,4 @@ Restart Neovim, and Neovim should be ready now.
 
 <img src="assets/foot.png">
 
--# Thats it! That's my Hyprland dotfiles repo.
+Thanks for checking out my dotfiles!
