@@ -103,4 +103,8 @@ This command installs all the packages and makes sure they're up to date.
 
 Restart Neovim, and Neovim should be ready now.
 
-### Screenshots.
+## Screenshots.
+
+### Hyprland and Hyprpanel
+
+<img src="assets/hypr.png">
