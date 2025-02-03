@@ -87,12 +87,17 @@ Now Hyprpanel should be fully set up.
 ### Neovim setup.
 Before you get started with moving the config over to the neovim config folder, install Packer. Packer is a Neovim plugin manager in which you can install plugins. Once installed, you can now move the config from my repo over to your neovim config folder.
 
+To install Packer on your system, run this command:
+
+```
+git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
+
 Initially, you will see a lot of errors after starting Neovim.
 
 Ignore those errors.
 
 After you're in Neovim, run the `:PackerSync` command.
-
 
 This command installs all the packages and makes sure they're up to date.
 
