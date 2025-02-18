@@ -1,0 +1,126 @@
+* {
+    font-family: Symbols Nerd Font, Noto Sans;
+	font-weight: 500;
+    font-size: 14.9px;
+}
+
+window#waybar {
+    background-color: transparent;
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+@define-color bg #240C35;
+@define-color orange #f7a471;
+@define-color red #ea9a97;
+@define-color yellow #f6c177;
+@define-color rose #ebbcba;
+@define-color purple #c4a7e7;
+@define-color modified-red #eb6f92;
+
+
+/*
+window#waybar.empty {
+    background-color: transparent;
+}
+window#waybar.solo {
+    background-color: #FFFFFF;
+}
+*/
+
+#custom-launcher {
+	margin: 7 1 5 10;
+	background-color: @bg;
+	border: 1.5px solid @yellow;
+	color: @yellow;
+	padding: 4.5 8 4.5 8;
+	border-radius: 13.5px;
+}
+
+button {
+    /* Use box-shadow instead of border so the text isn't offset */
+    box-shadow: inset 0 -3px transparent;
+    /* Avoid rounded borders under each button name */
+    border: none;
+    border-radius: 0;
+}
+
+#workspaces {
+	background-color: @bg;
+	border-radius: 13.5px;
+	border: 1.5px solid @rose;
+	margin: 7 0 5 0;
+	color: @red;
+	padding: 2.5 5.85 2.5 5.85;
+}
+
+#workspaces button {
+	color: @modified-red;
+    padding: 0 6.4px;
+}
+
+#workspaces button.active {
+	color: @rose;
+}
+
+#clock {
+    background-color: @bg;
+	margin: 7 0 5 0;
+	padding: 4.5 7 4.5 7;
+	color: @orange;
+	border-radius: 13.5px;
+	border: 1.5px solid @orange;
+}
+
+#battery {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#backlight {
+    background-color: @bg;
+	margin: 7 0 5 0;
+	color: @rose;
+	border: 1.5px solid @rose;
+	padding: 4.5 7 4.5 7;
+	border-radius: 13.5px;
+}
+
+#network {
+    background-color: @bg;
+	margin: 7 0 5 0;
+	padding: 4.5 7 4.5 7;
+	border-radius: 13.5px;
+	color: @red;
+	border: 1.5px solid @red;
+
+}
+
+#pulseaudio {
+    background-color: @bg;
+	color: @yellow;
+	padding: 4.5 7 4.5 7;
+	border-radius: 13.5px;
+	border: 1.5px solid @yellow;
+	margin: 7 0 5 0;
+}
+
+
+#tray {
+    background-color: @bg;
+	border: 1.5px solid @modified-red;
+	padding: 4.5 10 4.5 10;
+	border-radius: 13.5px;
+	margin: 7 0 5 0;
+}
+#custom-power {
+	margin: 7 7 5 0;
+	color: @purple;
+	background-color: @bg;
+	border: 1.5px solid @purple;
+	border-radius: 13.5px;
+	padding: 4.5 9 4.5 11;
+}
+
+

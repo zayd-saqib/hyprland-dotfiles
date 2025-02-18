@@ -1,0 +1,91 @@
+// -*- mode: jsonc -*-
+{
+    // "layer": "top", // Waybar at top layer
+    // "position": "bottom", // Waybar position (top|bottom|left|right)
+    // "width": 1280, // Waybar width
+    "spacing": 7, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": [
+		"custom/launcher",
+        "hyprland/workspaces",
+		"tray"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "network",
+        "backlight",
+        "custom/power"
+    ],
+    // Modules configuration
+    // "sway/workspaces": {
+    //     "disable-scroll": true,
+    //     "all-outputs": true,
+    //     "warp-on-scroll": false,
+    //     "format": "{name}: {icon}",
+    //     "format-icons": {
+    //         "1": "",
+    //         "2": "",
+    //         "3": "",
+    //         "4": "",
+    //         "5": "",
+    //         "urgent": "",
+    //         "focused": "",
+    //         "default": ""
+    //     }
+    // },
+	"hyprland/workspaces": {
+		"format-icons": {
+			"active": "<big>󱔀</big>",
+			"default": "<big>󰝣</big>"
+		},
+		"format": "{icon}"
+	},
+       "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+    "clock": {
+        // "timezone": "America/New_York",
+		"format": "<big>󰅐</big> {:%I:%M %p <b>|</b>  %a %d %b}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    },
+    "backlight": {
+        // "device": "acpi_video1",
+		"tooltip": false,
+        "format": "{icon} {percent}%",
+        "format-icons": ["<big></big>"]
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+		"format-icons": ["󰤟", "󰤢", "󰤥", "󰤨"],
+        "format-wifi": "{icon} {essid}",
+        "format-ethernet": "{icon} {essid} {ipaddr}/{cidr}",
+        "tooltip-format": "<span color='#ea9a97'>Frequency:</span> {frequency}GHz",
+        "format-linked": " {ifname} (No IP)",
+        "format-disconnected": "<big>󰤮</big> Disconnected",
+        "format-alt": "{icon} {essid} <b>|</b>  {bandwidthUpBytes}  {bandwidthDownBytes}"
+    },
+    "pulseaudio": {
+        "scroll-step": 2, // %, can be a float
+        "format": "{icon} {volume}%",
+        "format-muted": "<big>󰝟</big> {volume}%",
+		"format-icons": {
+			"default": ["<big>󰕿</big>", "<big>󰖀</big>", "<big>󰕾</big>"]
+        },
+        "on-click": "pavucontrol"
+    },
+    "custom/power": {
+        "format" : "<big>󰍃</big>",
+		"tooltip-format": "Power menu",
+		"on-click": "wlogout"
+		},
+	"custom/launcher": {
+			"format": "<big></big>",
+			"tooltip-format": "App launcher",
+			"on-click": "rofi -show drun"
+		}
+    }
+}
