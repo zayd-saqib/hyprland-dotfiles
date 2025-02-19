@@ -5,6 +5,7 @@ Here are my dotfiles for it.
 ```
 waybar
 hyprland
+dunst
 swww
 foot
 rofi-wayland
@@ -27,6 +28,8 @@ Fish is a shell.
 Nvim, or neovim, is a vim based code editor.
 
 Starship is used to customize your terminal prompt.
+
+Dunst is a notification service.
 
 You will also need the hyprcursor and xcursor theme of Bibata-Modern-Classic.
 
@@ -56,6 +59,7 @@ The list of folders that should **NOT** be there are:
 waybar
 hypr
 nvim
+dunst
 foot
 rofi
 fish
@@ -68,7 +72,7 @@ Now you can copy the configurations over to your .config folder.
 Run this command to copy the configuration folders over: (Also make sure you're in the `hyprland-dotfiles` folder.)
 
 ```
-cp -r fish foot hypr nvim rofi waybar ~/.config && cp starship.toml ~/.config
+cp -r fish foot hypr nvim rofi waybar dunst ~/.config && cp starship.toml ~/.config
 ```
 
 Now the configurations should be installed on your system. However, Neovim is still not complete.
@@ -108,6 +112,10 @@ Restart Neovim, and Neovim should be ready now.
 
 ### Foot, Starship, and Fish
 
-<img src="assets/foot.png">
+<img src="assets/foot2.png">
+
+### Dunst
+
+<img src="assets/dunst.png">
 
 Thanks for checking out my dotfiles!
