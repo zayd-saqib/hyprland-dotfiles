@@ -1,0 +1,32 @@
+[global]
+frame_color = "#c4a7e7"
+separator_color= frame
+font = Ubuntu Nerd Font 12
+origin = top-right
+offset = (10, 7)
+width = (100, 400)
+height = (50, 500)
+progress_bar = true
+corner_radius = 12
+timeout = 4
+frame_width = 2
+
+progress_bar_height = 10
+
+progress_bar_frame_width = 1
+
+progress_bar_min_width = 150
+
+
+[urgency_low]
+background = "#240C35"
+foreground = "#d9c8f4"
+
+[urgency_normal]
+background = "#240C35"
+foreground = "#d9c8f4"
+
+[urgency_critical]
+background = "#240C35"
+foreground = "#d9c8f4"
+frame_color = "#f8768e"
