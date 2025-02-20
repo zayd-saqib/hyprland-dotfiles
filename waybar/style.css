@@ -1,7 +1,7 @@
 * {
     font-family: Symbols Nerd Font, Noto Sans;
-	font-weight: 500;
-    font-size: 14.9px;
+	font-weight: 600;
+    font-size: 14.7px;
 }
 
 window#waybar {
@@ -11,13 +11,13 @@ window#waybar {
     transition-duration: .5s;
 }
 
-@define-color bg #240C35;
-@define-color orange #f7a471;
-@define-color red #ea9a97;
-@define-color yellow #f6c177;
-@define-color rose #ebbcba;
-@define-color purple #c4a7e7;
-@define-color modified-red #eb6f92;
+@define-color bg #20103a;
+@define-color pink #ffc1e0;
+@define-color red #eb8eaf;
+@define-color rose #f0aec6;
+@define-color purple #f2c1e4;
+@define-color reddish-pink #f8b4ce;
+@define-color rosewater #f2bdbd;
 
 
 /*
@@ -32,8 +32,8 @@ window#waybar.solo {
 #custom-launcher {
 	margin: 7 1 5 10;
 	background-color: @bg;
-	border: 1.5px solid @yellow;
-	color: @yellow;
+	border: 1.65px solid @pink;
+	color: @pink; 
 	padding: 4.5 8 4.5 8;
 	border-radius: 13.5px;
 }
@@ -49,14 +49,14 @@ button {
 #workspaces {
 	background-color: @bg;
 	border-radius: 13.5px;
-	border: 1.5px solid @rose;
+	border: 1.65px solid @rose;
 	margin: 7 0 5 0;
 	color: @red;
 	padding: 2.5 5.85 2.5 5.85;
 }
 
 #workspaces button {
-	color: @modified-red;
+	color: @red;
     padding: 0 6.4px;
 }
 
@@ -68,9 +68,9 @@ button {
     background-color: @bg;
 	margin: 7 0 5 0;
 	padding: 4.5 7 4.5 7;
-	color: @orange;
+	color: @purple;
 	border-radius: 13.5px;
-	border: 1.5px solid @orange;
+	border: 1.65px solid @purple;
 }
 
 #battery {
@@ -82,7 +82,7 @@ button {
     background-color: @bg;
 	margin: 7 0 5 0;
 	color: @rose;
-	border: 1.5px solid @rose;
+	border: 1.65px solid @rose;
 	padding: 4.5 7 4.5 7;
 	border-radius: 13.5px;
 }
@@ -93,32 +93,32 @@ button {
 	padding: 4.5 7 4.5 7;
 	border-radius: 13.5px;
 	color: @red;
-	border: 1.5px solid @red;
+	border: 1.65px solid @red;
 
 }
 
 #pulseaudio {
     background-color: @bg;
-	color: @yellow;
+	color: @reddish-pink;
 	padding: 4.5 7 4.5 7;
 	border-radius: 13.5px;
-	border: 1.5px solid @yellow;
+	border: 1.65px solid @reddish-pink;
 	margin: 7 0 5 0;
 }
 
 
 #tray {
     background-color: @bg;
-	border: 1.5px solid @modified-red;
+	border: 1.65px solid @modified-red;
 	padding: 4.5 10 4.5 10;
 	border-radius: 13.5px;
 	margin: 7 0 5 0;
 }
 #custom-power {
 	margin: 7 7 5 0;
-	color: @purple;
+	color: @rosewater;
 	background-color: @bg;
-	border: 1.5px solid @purple;
+	border: 1.65px solid @rosewater;
 	border-radius: 13.5px;
 	padding: 4.5 9 4.5 11;
 }
