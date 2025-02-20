@@ -16,7 +16,7 @@
     "modules-right": [
         "pulseaudio",
         "network",
-        "backlight",
+		"backlight",
         "custom/power"
     ],
     // Modules configuration
@@ -38,8 +38,8 @@
     // },
 	"hyprland/workspaces": {
 		"format-icons": {
-			"active": "<big>󱔀</big>",
-			"default": "<big>󰝣</big>"
+			"active": "<big></big>",
+			"default": "<big></big>"
 		},
 		"format": "{icon}"
 	},
@@ -49,12 +49,12 @@
     },
     "clock": {
         // "timezone": "America/New_York",
-		"format": "<big>󰅐</big> {:%I:%M %p <b>|</b>  %a %d %b}",
+		"format": "<big>󰅐</big> {:%I:%M %p <b>|</b> <big></big> %a %d %b}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     },
     "backlight": {
-        // "device": "acpi_video1",
 		"tooltip": false,
+        // "device": "acpi_video1",
         "format": "{icon} {percent}%",
         "format-icons": ["<big></big>"]
     },
