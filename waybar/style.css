@@ -109,7 +109,7 @@ button {
 
 #tray {
     background-color: @bg;
-	border: 1.65px solid @modified-red;
+	border: 1.65px solid @purple;
 	padding: 4.5 10 4.5 10;
 	border-radius: 13.5px;
 	margin: 7 0 5 0;
