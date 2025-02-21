@@ -114,10 +114,10 @@ Restart Neovim, and Neovim should be ready now.
 
 ### Foot, Starship, and Fish
 
-<img src="assets/foot2.png">
+<img src="assets/foot.png">
 
 ### Dunst
 
-<img src="assets/dunst.png">
+<img src="assets/dunst1.png">
 
 Thanks for checking out my dotfiles!
