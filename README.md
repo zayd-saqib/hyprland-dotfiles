@@ -40,6 +40,11 @@ Noto Sans is available [here](https://fonts.google.com/noto/specimen/Noto+Sans)
 
 You can find instructions on how to install these dependencies for your own distro, by looking at their GitHub repos.
 
+For example, users running Arch and Arch-based distros (e.g. Manjaro, EndeavourOS, etc.) can run this command to install dependencies.
+```
+sudo pacman -S hyprland waybar swww foot rofi-wayland grim slurp neovim fish starship
+```
+For other distros, you're on your own.
 ### How do you use these dotfiles?
 First, clone the repo with this command in the terminal:
 
