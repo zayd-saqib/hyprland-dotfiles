@@ -1,6 +1,6 @@
 set -l foreground c0caf5
-    set -l selection 283457
-    set -l comment 3e4261
+    set -l selection 362660
+    set -l comment 362660
     set -l red eb6f92
 	set -l blue 918fde 
     set -l orange ea9d34
