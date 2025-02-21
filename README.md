@@ -110,7 +110,7 @@ Restart Neovim, and Neovim should be ready now.
 
 ### Rofi
 
-<img src="assets/rofi.png">
+<img src="assets/rofi1.png">
 
 ### Foot, Starship, and Fish
 
