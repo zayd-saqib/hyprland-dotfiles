@@ -106,7 +106,7 @@ Restart Neovim, and Neovim should be ready now.
 
 ### Neovim
 
-<img src="assets/nvim.png">
+<img src="assets/nvim1.png">
 
 ### Rofi
 
