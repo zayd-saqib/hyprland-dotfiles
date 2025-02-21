@@ -1,37 +1,29 @@
+# get completions
+"$schema" = 'https://starship.rs/config-schema.json'
 format = """
-[](fg:#26163a bg:bg)\
-[   ](bg:#26163a fg:#b386eb)\
-[](fg:#26163a bg:#382354)\
-$directory\
-[](fg:#382354 bg:#8a61b4)\
-$username\
-[ ](fg:#8a61b4 bg:bg)\
+[$directory]()[$character](bold)
 """
+#[┌───── ](bold  #8ec07c)[$username](bold)[ in ]()[$directory](bold)[$git_branch]()
+#[└─ ](bold  #8ec07c)[$character](bold)
 
-# [](fg:#2f2446 bg:#394260)\
-# [](fg:#2a1c41 bg:bg)\
-# #  
+add_newline = true
 
 [directory]
-style = "fg:#c8a3f7 bg:#382354"
-format = "[](bg:#382951 fg:cyan)[ $path ]($style)"
-truncation_length = 3
-truncation_symbol = "…/"
+style = 'yellow'
 
 [character]
-success_symbol = "[ ❭](purple)"
-error_symbol = "[ ❭](red)"
+# ❭
+success_symbol = '[⟩](yellow)'
+error_symbol = '[⟩](red)'
 
 [username]
-#style_user = "fg:fg bg:#8262a7"
-#style_root = "fg:fg bg:#8262a7"
+style_user = 'bold #d3869b'
+style_root = 'bold #ea6962'
+format = '[$user](bold #d3869b)'
 show_always = true
-format = "[  ](fg:#000000 bg:#8a61b4)[$user ](fg:#000000 bg:#8a61b4)"
-
-[time]
-format = "[ ](fg:black bg:#7c7abb)[$time ](fg:black bg:#7c7abb)"
-disabled = false
-use_12hr = true
 
 [git_branch]
-format = "[ ](bg:#553480 fg:#c8a3f7)[ $branch ](bg:#553480 fg:#c8a3f7)"
+style = 'bold #7daea3'
+#format = 'on [$git_branch](bold)'
+[package]
+disabled = true
