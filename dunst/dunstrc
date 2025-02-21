@@ -1,14 +1,14 @@
 [global]
 frame_color = "#c4a7e7"
 separator_color= frame
-font = Ubuntu Nerd Font 12
+font = Noto Sans 12
 origin = top-right
 offset = (10, 7)
-width = (100, 400)
-height = (50, 500)
+width = (100, 420)
+height = (20, 500)
 progress_bar = true
 corner_radius = 12
-timeout = 4
+timeout = 3
 frame_width = 2
 
 progress_bar_height = 10
@@ -17,16 +17,16 @@ progress_bar_frame_width = 1
 
 progress_bar_min_width = 150
 
+highlight = "#c4a7e7"
+
+background = "#20144d"
 
 [urgency_low]
-background = "#240C35"
 foreground = "#d9c8f4"
 
 [urgency_normal]
-background = "#240C35"
 foreground = "#d9c8f4"
 
 [urgency_critical]
-background = "#240C35"
 foreground = "#d9c8f4"
 frame_color = "#f8768e"
