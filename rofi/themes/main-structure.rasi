@@ -5,7 +5,7 @@ configuration {
 	modi:                       "drun";
     show-icons:                 true;
     display-drun:               " ";
-    font: "JetBrainsMono Nerd Font 10";
+    font: "Symbols Nerd Font, Noto Sans 10";
 	drun-display-format:        "{name}";
 }
 
@@ -17,7 +17,7 @@ window {
     anchor:                      center;
     fullscreen:                  false;
     width:                       600px;
-	height:						426px;
+	height:						429px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -26,7 +26,7 @@ window {
     padding:                     0px;
     border:                      2px solid;
     border-radius:               15px;
-    border-color:                #AF8FD5;
+    border-color:                #9d96f4;
     background-color:            @background;
     cursor:                      "default";
 }
