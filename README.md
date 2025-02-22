@@ -119,7 +119,7 @@ Restart Neovim, and Neovim should be ready now.
 
 ### Foot, Starship, and Fish
 
-<img src="assets/foot.png">
+<img src="assets/foot1.png">
 
 ### Dunst
 
