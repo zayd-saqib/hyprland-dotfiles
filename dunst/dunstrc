@@ -1,0 +1,34 @@
+[global]
+frame_color = "#d5b5ee"
+separator_color= frame
+font = Noto Sans 12
+origin = top-right
+offset = (10, 7)
+width = (100, 420)
+height = (20, 500)
+progress_bar = true
+corner_radius = 12
+timeout = 2
+frame_width = 2
+
+progress_bar_height = 11
+
+progress_bar_frame_width = 1
+
+progress_bar_min_width = 170
+
+progress_bar_corner_radius = 4
+
+highlight = "#d5b5ee"
+
+background = "#2b1d69"
+
+[urgency_low]
+foreground = "#d9c8f4"
+
+[urgency_normal]
+foreground = "#d9c8f4"
+
+[urgency_critical]
+foreground = "#d9c8f4"
+frame_color = "#f8768e"
