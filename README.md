@@ -14,6 +14,7 @@ slurp
 nvim
 fish
 starship
+wlogout
 ```
 Waybar is a status bar.
 
