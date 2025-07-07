@@ -16,25 +16,22 @@ fish
 starship
 wlogout
 ```
-Waybar is a status bar.
 
-Swww is a wallpaper utility.
+Waybar is a status bar (the bar that appears on the top of your screen.)\
+Dunst is the notification service.\
+S.W.W.W is the wallpaper setter.\
+Foot is the temrinal (terrible name i know).\
+Rofi is the app launcher.\
+Grim and slurp are the screenshotting tools. (you most likely already have this installed but double check.)\
+Nvim (neovim) is a text editor.\
+Fish is the terminal shell.\
+Starship is used to customize the terminal prompt.
+WLogOut is the logout menu.
 
-Foot is a terminal emulator.
-
-Grim and slurp are screenshot utilities.
-
-Fish is a shell.
-
-Nvim, or neovim, is a vim based code editor.
-
-Starship is used to customize your terminal prompt.
-
-Dunst is a notification service.
 
 You will also need the hyprcursor and xcursor theme of Bibata-Modern-Classic.
 
-The fonts used are Iosevka Nerd Font for the terminal and rofi, the Symbols Nerd Font to get icons in waybar, and Noto Sans for the actual font. Ubuntu Nerd Font is used for the dunst config. All of these fonts (except Noto Sans) are available at [the nerd font website.](https://nerdfonts.com)\
+The fonts used are Noto Sans for rofi, Iosevka Nerd Font for the terminal, the Symbols Nerd Font to get icons in waybar, and Noto Sans for the actual font. Ubuntu Nerd Font is used for the dunst config. All of these fonts (except Noto Sans) are available at [the nerd font website.](https://nerdfonts.com)\
 Noto Sans is available [here](https://fonts.google.com/noto/specimen/Noto+Sans)
 
 
@@ -43,7 +40,7 @@ You can find instructions on how to install these dependencies for your own dist
 
 For example, users running Arch and Arch-based distros (e.g. Manjaro, EndeavourOS, etc.) can run this command to install dependencies.
 ```
-sudo pacman -S hyprland waybar swww foot rofi-wayland grim slurp neovim fish starship
+sudo pacman -S hyprland waybar swww foot rofi-wayland grim slurp neovim fish starship wlogout
 ```
 For other distros, you're on your own.
 ### How do you use these dotfiles?
@@ -72,8 +69,6 @@ foot
 rofi
 fish
 ```
-
-Also, if there is a file in your .config folder called `starship.toml`, you should delete it.
 
 Now you can copy the configurations over to your .config folder.
 
@@ -112,18 +107,22 @@ Restart Neovim, and Neovim should be ready now.
 
 ### Neovim
 
-<img src="assets/nvim1.png">
+<img src="assets/nvim.png">
 
 ### Rofi
 
-<img src="assets/rofi1.png">
+<img src="assets/rofi.png">
 
 ### Foot, Starship, and Fish
 
-<img src="assets/foot1.png">
+<img src="assets/foot.png">
 
 ### Dunst
 
-<img src="assets/dunst1.png">
+<img src="assets/dunst.png">
+
+### WLogOut
+
+<img src="assets/wlogout.png">
 
 Thanks for checking out my dotfiles!
