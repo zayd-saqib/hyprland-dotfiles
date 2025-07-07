@@ -1,0 +1,36 @@
+{
+    "label" : "lock",
+    "action" : "swaylock --indicator-idle-visible -F -e --indicator-thickness 15 --inside-color 423732 --inside-wrong-color 533434 --layout-border-color 211915 --layout-bg-color 211915 --line-color 211915 --ring-color 211915 --key-hl-color 737942 --text-color d4be98 --text-wrong-color d4be98",
+    "text" : "Lock",
+    "keybind" : "l"
+}
+{
+    "label" : "hibernate",
+    "action" : "systemctl hibernate",
+    "text" : "Hibernate",
+    "keybind" : "h"
+}
+{
+    "label" : "logout",
+    "action" : "wayland-logout",
+    "text" : "Logout",
+    "keybind" : "e"
+}
+{
+    "label" : "shutdown",
+    "action" : "systemctl poweroff",
+    "text" : "Shutdown",
+    "keybind" : "s"
+}
+{
+    "label" : "suspend",
+    "action" : "systemctl suspend",
+    "text" : "Suspend",
+    "keybind" : "u"
+}
+{
+    "label" : "reboot",
+    "action" : "systemctl reboot",
+    "text" : "Reboot",
+    "keybind" : "r"
+}
