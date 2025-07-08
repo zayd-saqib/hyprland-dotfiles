@@ -31,7 +31,7 @@ WLogOut is the logout menu.
 
 You will also need the hyprcursor and xcursor theme of Bibata-Modern-Classic.
 
-The fonts used are Noto Sans for rofi, Iosevka Nerd Font for the terminal, the Symbols Nerd Font to get icons in waybar, and Noto Sans for the actual font. Ubuntu Nerd Font is used for the dunst config. All of these fonts (except Noto Sans) are available at [the nerd font website.](https://nerdfonts.com)\
+The fonts used are Noto Sans for rofi, Iosevka Nerd Font for the terminal, the Symbols Nerd Font to get icons in waybar, and Noto Sans for the actual font. Noto Sans is used for the dunst config. All of these fonts (except Noto Sans) are available at [the nerd font website.](https://nerdfonts.com)\
 Noto Sans is available [here](https://fonts.google.com/noto/specimen/Noto+Sans)
 
 
