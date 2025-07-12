@@ -43,6 +43,8 @@ For example, users running Arch and Arch-based distros (e.g. Manjaro, EndeavourO
 sudo pacman -S hyprland waybar swww foot rofi-wayland grim slurp neovim fish starship wlogout
 ```
 For other distros, you're on your own.
+
+**NOTE:** The configuration i have uses Nemo as the file manager. If you want to change it, go to ~/.config/hypr/configuration/programs.conf and change the $fileManager variable to another program.
 ### How do you use these dotfiles?
 First, clone the repo with this command in the terminal:
 
@@ -124,5 +126,24 @@ Restart Neovim, and Neovim should be ready now.
 ### WLogOut
 
 <img src="assets/wlogout.png">
+
+## Keyboard Shortcuts
+
+Super + T = Execute Terminal Program\
+Super + Q = Close Active Window\
+Super + M = Log Out of Hyprland\
+Super + E = Execute File Manager Program\
+Super + V = Toggle Floating Mode for Windows\
+Super + R = Execute App Launcher\
+Super + J = Split layout of windows\
+Super + Left arrow key = Change focus to the window to the left\
+Super + Right arrow key = Change focus to the window to the right\
+Super + Up arrow key = Change focus to the window to the top\
+Super + Down arrow key = Change focus to the window to the bottom\
+Super + Number keys 1-9 = Change workspaces\
+Super + Shift + Number keys 1-9 = Move window to another workspace\
+Super + W = Toggle Tabbed Mode\
+PrtSc = Selection screenshot\
+Shift + PrtSc = Fullscreen screenshot
 
 Thanks for checking out my dotfiles!
