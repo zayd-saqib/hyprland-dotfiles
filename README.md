@@ -129,21 +129,21 @@ Restart Neovim, and Neovim should be ready now.
 
 ## Keyboard Shortcuts
 
-Super + T = Execute Terminal Program\
-Super + Q = Close Active Window\
-Super + M = Log Out of Hyprland\
-Super + E = Execute File Manager Program\
-Super + V = Toggle Floating Mode for Windows\
-Super + R = Execute App Launcher\
-Super + J = Split layout of windows\
-Super + Left arrow key = Change focus to the window to the left\
-Super + Right arrow key = Change focus to the window to the right\
-Super + Up arrow key = Change focus to the window to the top\
-Super + Down arrow key = Change focus to the window to the bottom\
-Super + Number keys 1-9 = Change workspaces\
-Super + Shift + Number keys 1-9 = Move window to another workspace\
-Super + W = Toggle Tabbed Mode\
-PrtSc = Selection screenshot\
-Shift + PrtSc = Fullscreen screenshot
+**Super + T** = Execute Terminal Program\
+**Super + Q** = Close Active Window\
+**Super + M** = Log Out of Hyprland\
+**Super + E** = Execute File Manager Program\
+**Super + V** = Toggle Floating Mode for Windows\
+**Super + R** = Execute App Launcher\
+**Super + J** = Split layout of windows\
+**Super + Left arrow key** = Change focus to the window to the left\
+**Super + Right arrow key** = Change focus to the window to the right\
+**Super + Up arrow key** = Change focus to the window to the top\
+**Super + Down arrow key** = Change focus to the window to the bottom\
+**Super + Number keys 1-9** = Change workspaces\
+**Super + Shift + Number keys 1-9** = Move window to another workspace\
+**Super + W** = Toggle Tabbed Mode\
+**PrtSc** = Selection screenshot\
+**Shift + PrtSc** = Fullscreen screenshot
 
 Thanks for checking out my dotfiles!
