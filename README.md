@@ -25,7 +25,7 @@ Rofi is the app launcher.\
 Grim and slurp are the screenshotting tools. (you most likely already have this installed but double check.)\
 Nvim (neovim) is a text editor.\
 Fish is the terminal shell.\
-Starship is used to customize the terminal prompt.
+Starship is used to customize the terminal prompt.\
 WLogOut is the logout menu.
 
 
@@ -70,6 +70,7 @@ dunst
 foot
 rofi
 fish
+wlogout
 ```
 
 Now you can copy the configurations over to your .config folder.
