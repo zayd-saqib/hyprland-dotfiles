@@ -32,3 +32,6 @@ foreground = "#d9c8f4"
 [urgency_critical]
 foreground = "#d9c8f4"
 frame_color = "#f8768e"
+
+[stack_all]
+set_stack_tag = "tag"
