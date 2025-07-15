@@ -13,13 +13,13 @@ configuration {
 /*****----- Main Window -----*****/
 window {
     transparency:                "real";
-    location:                    center;
-    anchor:                      center;
+    location:                    north west;
+    anchor:                      north west;
     fullscreen:                  false;
-    width:                       600px;
+    width:                       400px;
 	height:						429px;
-    x-offset:                    0px;
-    y-offset:                    0px;
+    x-offset:                    7px;
+    y-offset:                    7px;
 
     enabled:                     true;
     margin:                      0px;
@@ -82,7 +82,7 @@ entry {
 /*****----- Listview -----*****/
 listview {
     enabled:                     true;
-    columns:                     2;
+    columns:                     1;
     lines:                       8;
     cycle:                       true;
     dynamic:                     true;
