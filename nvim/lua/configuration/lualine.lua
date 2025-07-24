@@ -5,9 +5,9 @@ require('lualine').setup {
     theme = {
 		normal = {
 			a = { fg = '#120d18', bg = "#7e84d9" },
-			b = { fg = '#c2caf5', bg = '#25185b' },
-			c = { fg = '#c2caf5', bg = '#25185b' },
-			x = { fg = '#c2caf5', bg = '#25185b' },
+			b = { fg = '#c2caf5', bg = '#2f1f6f' },
+			c = { fg = '#c2caf5', bg = '#2f1f6f' },
+			x = { fg = '#c2caf5', bg = '#2f1f6f' },
 			y = { fg = '#23212d', bg = '#555792' },
 		},
 		insert = {
@@ -19,8 +19,8 @@ require('lualine').setup {
 			y = { fg = '#31293a', bg = '#7c6a91' }
 		},
 	},
-    component_separators = { left = '', right = ''},
-    section_separators = { left = '', right = ''}, --    
+    component_separators = { left = '', right = ''},
+    section_separators = { left = '', right = ''}, --    
     disabled_filetypes = {
       statusline = {},
       winbar = {},
