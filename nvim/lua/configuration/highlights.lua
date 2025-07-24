@@ -13,8 +13,8 @@ vim.api.nvim_set_hl(0, "Title", { bold = false, fg = '#a4a2f0'}) -- for toml tit
 --vim.api.nvim_set_hl(0, '@function.builtin', { fg = '#89b4fa' })
 --vim.api.nvim_set_hl(0, '@operator', { fg = '#fab387' })
 --vim.api.nvim_set_hl(0, '@punctuation.delimiter', { fg = '#f9e2af' })
-vim.api.nvim_set_hl(0, '@comment', { fg = '#403291' }) -- set the color for comments
-vim.api.nvim_set_hl(0, 'Comment', { fg = '#403291' }) -- set the color for comments
+vim.api.nvim_set_hl(0, '@comment', { fg = '#4a3ba4' }) -- set the color for comments
+vim.api.nvim_set_hl(0, 'Comment', { fg = '#4a3ba4' }) -- set the color for comments
 vim.api.nvim_set_hl(0, 'NonText', { fg = '#1c163f' }) -- set the color for empty lines
-vim.api.nvim_set_hl(0, 'LineNr', { fg = '#2a215e' }) -- set the color for line numbers
+vim.api.nvim_set_hl(0, 'LineNr', { fg = '#352a74' }) -- set the color for line numbers
 vim.api.nvim_set_hl(0, 'Visual', { bg = '#283457', fg = "#BBC9ED" }) -- set the colour for selected text
