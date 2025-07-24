@@ -58,7 +58,7 @@ Next, change directory into the cloned repo:
 cd hyprland-dotfiles
 ```
 
-Now, before you copy the configurations, **MAKE SURE** that these folders are not in your .config folder. (The .config folder is a folder which holds your program's configurations. It is located at `~/.config` It is a hidden folder, meaning it is not shown by default.)
+Now, before you copy the configurations, **MAKE SURE** that these folders are not in your .config folder. If they do, backup those configurations somewhere else, because when you move my dotfiles here, they will overwrite the current configuration. (The .config folder is a folder which holds your program's configurations. It is located at `~/.config` It is a hidden folder, meaning it is not shown by default.)
 
 The list of folders that should **NOT** be there are:
 
