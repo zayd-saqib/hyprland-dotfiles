@@ -110,7 +110,7 @@ Restart Neovim, and Neovim should be ready now.
 
 ### Neovim
 
-<img src="assets/nvim.png">
+<img src="assets/neovim.png">
 
 ### Rofi
 
@@ -118,7 +118,7 @@ Restart Neovim, and Neovim should be ready now.
 
 ### Foot, Starship, and Fish
 
-<img src="assets/foot.png">
+<img src="assets/foot1.png">
 
 ### Dunst
 
