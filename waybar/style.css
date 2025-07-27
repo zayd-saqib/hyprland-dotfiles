@@ -1,20 +1,21 @@
 * {
     font-family: Symbols Nerd Font, Noto Sans;
 	font-weight: 600;
-    font-size: 14.7px;
+    font-size: 14.8px;
 }
 
-window#waybar {
+#waybar {
     background-color: transparent;
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
 }
 
-@define-color bg #2a1c7e;
-@define-color purple #d5b5ee;
-@define-color blue #b4b2f7;
+@define-color bg #36278b;
+@define-color purple #d0a0f6;
+@define-color blue #afaef0;
 @define-color pine #9cc6df;
+@define-color rose #e3a6e1;
 @define-color cyan #c9d6f7;
 @define-color darker-pine #63a7d0;
 
@@ -26,106 +27,3 @@ window#waybar.empty {
 window#waybar.solo {
     background-color: #FFFFFF;
 }
-*/
-tooltip {
-	border: 0px solid transparent;
-	background-color: rgba(24, 10, 64, 0.9);
-	color: #d9c8f4;
-	border-radius: 12px;
-}
-
-#custom-launcher {
-	margin: 7 1 7 10;
-	background-color: @bg;
-	border: 1.65px solid @blue;
-	color: @blue; 
-	padding: 4.5 8 4.5 8;
-	border-radius: 13.5px;
-}
-
-button {
-    /* Use box-shadow instead of border so the text isn't offset */
-    box-shadow: inset 0 -3px transparent;
-    /* Avoid rounded borders under each button name */
-    border: none;
-    border-radius: 0;
-}
-
-#workspaces {
-	background-color: @bg;
-	border-radius: 13.5px;
-	border: 1.65px solid @cyan;
-	margin: 7 0 7 0;
-	color: @darker-pine;
-	padding: 2.5 5.85 2.5 5.85;
-}
-
-#workspaces button {
-	color: @darker-pine;
-    padding: 0 6.4px;
-}
-
-#workspaces button.active {
-	color: @cyan;
-}
-
-#clock {
-    background-color: @bg;
-	margin: 7 0 7 0;
-	padding: 4.5 7 4.5 7;
-	color: @purple;
-	border-radius: 13.5px;
-	border: 1.65px solid @purple;
-}
-
-#battery {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-#backlight {
-    background-color: @bg;
-	margin: 7 0 7 0;
-	color: @pine;
-	border: 1.65px solid @pine;
-	padding: 4.5 7 4.5 7;
-	border-radius: 13.5px;
-}
-
-#network {
-    background-color: @bg;
-	margin: 7 0 7 0;
-	padding: 4.5 7 4.5 7;
-	border-radius: 13.5px;
-	color: @purple;
-	border: 1.65px solid @purple;
-
-}
-
-#pulseaudio {
-    background-color: @bg;
-	color: @blue;
-	padding: 4.5 7 4.5 7;
-	border-radius: 13.5px;
-	border: 1.65px solid @blue;
-	margin: 7 0 7 0;
-}
-
-
-#tray {
-    background-color: @bg;
-	border: 1.65px solid @purple;
-	padding: 4.5 10 4.5 10;
-	border-radius: 13.5px;
-	margin: 7 0 7 0;
-}
-#custom-power {
-	margin: 7 7 6 0;
-	color: @cyan;
-	background-color: @bg;
-	border: 1.65px solid @cyan;
-	border-radius: 13.5px;
-	padding: 4.5 9 4.5 11;
-}
-
-
