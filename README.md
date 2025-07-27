@@ -106,7 +106,7 @@ Restart Neovim, and Neovim should be ready now.
 
 ### Hyprland and Waybar
 
-<img src="assets/hypr.png">
+<img src="assets/hypr1.png">
 
 ### Neovim
 
